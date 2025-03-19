@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCODE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="gradient.png" alt="gradient" class="image-gradient">
+    <div class="layer-blur"></div>
+    
+    <div class="container">
+        <header>
+            <h1 class="logo">VYSAKH</h1>
+            
+            <nav>
+                <a href="#">COMPANY</a>
+                <a href="#">FEATURES</a>                   
+                <a href="#">ABOUT</a>
+                <a href="#">DOCS</a>
+            </nav>
+
+            <button class="btn-signin">SIGN IN</button>
+        </header>
+
+        <!-- Spline 3D Viewer -->
+        <div class="spline-container">
+            <spline-viewer url="https://prod.spline.design/b6VdWhoLtFHy5yyc/scene.splinecode"></spline-viewer>
+        </div>
+    </div>
+
+    <!-- Spline Viewer Script -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.79/build/spline-viewer.js"></script>
+</body>
+</html>
